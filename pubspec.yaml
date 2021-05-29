@@ -1,6 +1,6 @@
 name: score_indicator
-description: Display a graphical indicator that display an score/total with a label
-version: 0.0.1
+description: Show a graphical indicator that displays a score/total with a label
+version: 0.1.0
 repository: https://github.com/dariof28/score_indicator
 
 environment:
