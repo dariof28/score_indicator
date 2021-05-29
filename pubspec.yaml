@@ -1,0 +1,19 @@
+name: score_indicator
+description: Display a graphical indicator that display an score/total with a label
+version: 0.0.1
+repository: https://github.com/dariof28/score_indicator
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# The following section is specific to Flutter.
+flutter:
