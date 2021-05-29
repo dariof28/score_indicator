@@ -18,7 +18,7 @@ void main() {
 
   testWidgets('Score must be gt or equal to 0', (WidgetTester tester) async {
     expect(
-          () => ScoreIndicator(
+      () => ScoreIndicator(
         label: Text('Strength'),
         count: 3,
         score: -1,
@@ -30,7 +30,7 @@ void main() {
 
   testWidgets('Score cannot be gt count', (WidgetTester tester) async {
     expect(
-          () => ScoreIndicator(
+      () => ScoreIndicator(
         label: Text('Strength'),
         count: 3,
         score: 5,
@@ -42,7 +42,7 @@ void main() {
 
   testWidgets('Radius must be gt 0', (WidgetTester tester) async {
     expect(
-          () => ScoreIndicator(
+      () => ScoreIndicator(
         label: Text('Strength'),
         count: 5,
         score: 3,
